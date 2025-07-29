@@ -9,10 +9,9 @@ public class Quiz02 {
 		 Scanner scanner = new Scanner(System.in);
 
 	     System.out.println("문자입력");
-	     String word = scanner.next(); 
-	     
 	     
 	     try {
+	     String word = scanner.next();    
 			System.out.println(word.length());
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
